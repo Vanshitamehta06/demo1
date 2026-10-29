@@ -1,0 +1,7 @@
+services:
+  creat-a-login-page:
+    build: .
+    image: creat-a-login-page:local
+    ports:
+      - "8162:8000"
+    restart: unless-stopped
